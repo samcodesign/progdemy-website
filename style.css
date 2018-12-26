@@ -1,0 +1,61 @@
+  /*----Universal Style* ----*/
+  *
+  {
+      margin: 0;
+      padding: 0;
+  }
+                  /*----Navigation Bar----*/
+  #nav-bar
+  {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+  }
+  .navbar-brand img
+  {
+      height: 40px;
+      padding-left: 30px;
+  }
+  .navbar-nav li
+  {
+      padding: 0 10px;
+  }
+  .navbar-nav li a
+  {
+      float: right;
+      text-align: left;
+  }
+  #nav-bar ul li a:hover
+  {
+      color: #007bff!important;
+  }
+  .navbar
+  {
+      background: #ffffff;
+  }
+  .navbar-toggler
+  {
+      border: none!important;
+  }
+  .nav-link
+  {
+      color: #555555!important;
+      font-weight: 600;
+      font-size: 16px;
+  }
+                  /*------Slider------*/
+  #slider
+  {
+      width: auto;
+  }
+  .carousel-caption
+  {
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: initial!important;
+  }
+  .carousel-caption h5
+  {
+      color: #ffffff;
+      font-size: 45px;
+  }
