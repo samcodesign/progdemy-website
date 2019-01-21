@@ -43,7 +43,7 @@
       font-weight: 600;
       font-size: 16px;
   }
-                  /*------Slider------*/
+                  /*------Slider-----
   #slider
   {
       width: auto;
@@ -58,4 +58,272 @@
   {
       color: #ffffff;
       font-size: 45px;
+  }-*/
+
+  /*------------------------------------------Footer---------------------------------------------*/
+  html,
+  body,
+  img,
+  figure {
+      max-width: 100%;
+  }
+  html,
+  body {
+      overflow-x: hidden;
+      color: #ed3d47;
+      -ms-overflow-style: scrollbar;
+      -webkit-font-smoothing: antialiased;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+      text-decoration: none;
+      color: inherit;
+  }
+  a {
+      -webkit-transition: all .25s ease-in-out;
+      transition: all .25s ease-in-out;
+  }
+  .ct-u-paddingTop10 {
+      padding-top: 10px !important;
+  }
+  /*-------------------------------------------Header of Footer----------------------------------------------*/
+  .image
+  {
+      height: 10px;
+      width: 10px;
+
+  }
+  .all-footer {
+      background-color: #ed3d47;
+      padding-top: 70px;
+      margin-top: 20px;
+      position: relative;
+  }
+  .all-footer-header
+  {
+      width: 100%;
+      padding-bottom: 55px;
+      border-bottom: 1px solid #555;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .all-footer-header span
+  {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #fff;
+      font-size: 30px;
+  }
+  .all-footer-header .form-group
+  {
+      position: relative;
+      margin: 0;
+  }
+  .all-footer-header .form-group:before,
+  .all-footer-header .form-group:after
+  {
+      content: '';
+      display: table;
+  }
+  .all-footer-header .form-group:after
+  {
+      clear: both;
+  }
+  .all-footer-header .form-group input
+  {
+      border: 1px solid #f04b46;
+      background-color: #fff;
+      color: #ed3d47;
+      height: 50px;
+      padding: 0 30px;
+      margin: 0 5px;
+      border-radius: 0 !important;
+  }
+  .all-footer-header .form-group button
+  {
+      height: 50px;
+      position: relative;
+      width: 80px;
+      padding: 0
+  }
+  /*----------------------------------------Middle of footer------------------------------------------*/
+  .all-footer-list
+  {
+      list-style: none;
+      padding: 50px 0;
+      display: table;
+      width: 100%;
+      border-bottom: 1px solid #555;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .all-footer-list > li .ct-footer-list-header
+  {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #fff;
+      font-size: 30px;
+  }
+  .all-footer-list > li ul {
+      list-style: none;
+      padding-left: 0;
+  }
+  .all-footer-list > li ul li a
+  {
+      color: #fff;
+  }
+  .all-footer-list > li ul li a:hover,
+  .ct-footer-post a:hover
+  {
+      text-decoration: underline;
+  }
+  .ct-footer-post
+  {
+      background: #f04b46;
+      padding: 30px 0;
+  }
+  .ct-footer-post .inner-right
+  {
+      padding: 20px 0;
+  }
+  .ct-footer-post ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0 -20px;
+  }
+  .ct-footer-post ul li {
+      display: inline-block;
+      margin: 0 20px;
+  }
+  .ct-footer-post a {
+      color: #fff;
+  }
+  .ct-footer-post p {
+      color: #fff;
+  }
+  .ct-footer-meta {
+      padding-top: 30px;
+  }
+  .ct-footer-meta .ct-socials {
+      padding: 20px 0;
+  }
+  .ct-footer-meta .ct-socials li {
+      padding: 0 3px;
+  }
+  .ct-footer--with-button {
+      padding-top: 150px;
+  }
+  /*----------------------------------------------------------*/
+  .btn {
+      font-family: 'Open Sans Condensed', sans-serif;
+      border-radius: 0;
+      border: none;
+      text-transform: uppercase;
+      color: #111;
+      font-size: 26px;
+      padding: 12px 30px;
+  }
+  .btn.btn-motive {
+      background-color: #fff;
+      -webkit-transition: all .25s ease;
+      transition: all .25s ease;
+  }
+  .btn.btn-motive:hover,
+  .btn.btn-motive:hover:active {
+      background-color: #f04b46;
+  }
+  .btn.btn-green:hover:active {
+      background-color: #f04b46;
+  }
+
+  .btn.btn-white {
+      background-color: #fff;
+      -webkit-transition: all .25s ease;
+      transition: all .25s ease;
+  }
+  .btn.btn-white:hover {
+      background-color: #f04b46;
+  }
+  .btn.btn-white:hover:active {
+      background-color: #f04b46
+  }
+  .btn.btn-large {
+      padding: 20px 50px;
+      font-size: 30px;
+      white-space: normal;
+  }
+  .ct-mediaSection {
+      background-attachment: fixed;
+  }
+
+  /*------------------------------------------ Media Queries -------------------------------------*/
+
+  @media (min-width:1200px) {
+      .all-footer-header {
+          display: table;
+      }
+      .all-footer-header > .inner {
+          display: table-cell;
+          vertical-align: middle;
+      }
+      .all-footer-list > li {
+          width: 20%;
+          display: table-cell;
+          vertical-align: top;
+      }
+      .all-footer-list > li:last-child {
+          width: 7%;
+      }
+  }
+
+  @media (max-width:1199px) {
+      .all-footer-pre .form-group {
+          padding-top: 15px
+      }
+  }
+  @media (max-width: 1199px) {
+      .all-footer-list > li {
+          display: inline-block;
+          float: left;
+      }
+  }
+  @media (min-width:992px) {
+      .ct-footer-post .inner-left {
+          float: left;
+      }
+      .ct-footer-post .inner-right {
+          float: right;
+      }
+  }
+  @media (max-width:991px) {
+      .ct-footer-post {
+          text-align: left;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+      .all-footer-list > li {
+          width: 33.3333%;
+      }
+  }
+  @media (min-width:768px) {
+      .ct-footer-post p {
+          display: inline-block;
+      }
+      .ct-footer-post p + p {
+          padding-left: 50px;
+      }
+  }
+  @media (min-width: 480px) and (max-width:767px) {
+      .ct-footer-list > li {
+          width: 50%;
+      }
+  }
+  @media (min-width:480px)
+  {
+      .all-footer-header .form-group button
+      {
+          top: -1px;
+      }
+      .all-footer-header .form-group input
+      {
+          width: 331px;
+      }
   }
